@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<!-- Seluruh game berjalan di index.html (single page) agar koneksi WebSocket tidak putus
+     saat berpindah dari lobby ke arena. Halaman ini hanya mengalihkan, termasuk parameter
+     ?join=KODE / ?watch=KODE. -->
+<html lang="id"><head><meta charset="UTF-8"><title>KOMBAT NUSANTARA</title>
+<script>location.replace('index.html' + location.search);</script></head>
+<body><a href="index.html">Buka game</a></body></html>

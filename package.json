@@ -1,0 +1,15 @@
+{
+  "name": "kombat-nusantara-server",
+  "version": "1.0.0",
+  "description": "Server Socket.IO untuk game fighting KOMBAT NUSANTARA (room 1v1, relay input lockstep, penonton)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "express": "^4.21.0",
+    "socket.io": "^4.7.5"
+  }
+}
